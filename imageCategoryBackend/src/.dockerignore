@@ -1,0 +1,24 @@
+#Maintained by <virendra@xoxoday.com>
+	
+# ignore .git and .cache folders
+.git
+.cache
+.DS_Store
+.gitignore
+.sonar
+package-lock.json
+node_modules/*
+src/app/config/config.json
+nbproject
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ignore all markdown files (md) beside all README*.md other than README-secret.md
+*.md
+!README*.md
+README-secret.md
+
+# ignore all *.class files in all folders, including build root
+**/*.class

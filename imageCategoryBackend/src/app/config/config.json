@@ -1,0 +1,27 @@
+{
+    "server": {
+        "index": {
+            "port": 8088,
+            "env": "development",
+            "url": "http://localhost:8088/"
+        }
+    },
+    "database": {
+        "mysqlMaster"    : {
+            "host"           : "localhost",
+            "port"           : "8889",
+            "user"           : "root",
+            "password"       : "root",
+            "database"       : "imageCategory",
+            "connectionLimit": 10
+        },
+        "mysqlReadSlave" : {
+            "host"           : "localhost",
+            "port"           : "8889",
+            "user"           : "root",
+            "password"       : "root",
+            "database"       : "imageCategory",
+            "connectionLimit": 10
+        }
+    }
+}

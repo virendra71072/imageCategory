@@ -1,0 +1,36 @@
+{
+    "APP_MESSAGES": {
+        "SUCCESS": {
+            "errorCode": "0",
+            "message"  : "Success"
+        },
+        "ERROR_VALIDATION": {
+            "errorCode": "101",
+            "message"  : "Validation Error"
+        },
+        "ERROR_USER_NOT_EXISTS": {
+            "errorCode": "102",
+            "message"  : "User does not exists"
+        },
+        "ERROR_AUTHENTICATION": {
+            "errorCode": "103",
+            "message"  : "Authentication Failed"
+        },
+        "ERROR_NO_DATA": {
+            "errorCode": "104",
+            "message"  : "No Data Available"
+        },
+        "ERROR_SERVER_ERROR": {
+            "errorCode": "105",
+            "message"  : "Server Error"
+        },
+        "DUPLICATE_SOURCE_TOKEN": {
+            "errorCode": "105",
+            "message"  : "Token already used!"
+        },
+        "INVALID_SOURCE_TOKEN": {
+            "errorCode": "106",
+            "message"  : "Invalid Token!"
+        }
+    }
+}
